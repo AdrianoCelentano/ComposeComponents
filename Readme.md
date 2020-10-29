@@ -4,9 +4,9 @@ A collection of Views done with Jetpack Compose
 
 ---
 
-## SimpleSlider
+## CircularMotion
 
-![https://media.giphy.com/media/TnGz6XDRXrOG2vuMGx/giphy.gif](https://media.giphy.com/media/TnGz6XDRXrOG2vuMGx/giphy.gif)
+![https://media.giphy.com/media/s3crJQPziQPi5c8zKu/giphy.gif](https://media.giphy.com/media/s3crJQPziQPi5c8zKu/giphy.gif)
 
 ---
 
@@ -16,9 +16,9 @@ A collection of Views done with Jetpack Compose
 
 ---
 
-## CircularMotion
+## SimpleSlider
 
-![https://media.giphy.com/media/s3crJQPziQPi5c8zKu/giphy.gif](https://media.giphy.com/media/s3crJQPziQPi5c8zKu/giphy.gif)
+![https://media.giphy.com/media/TnGz6XDRXrOG2vuMGx/giphy.gif](https://media.giphy.com/media/TnGz6XDRXrOG2vuMGx/giphy.gif)
 
 ---
 
