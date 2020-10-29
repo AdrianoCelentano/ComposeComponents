@@ -12,7 +12,7 @@ A collection of Views done with Jetpack Compose
 
 ## CircularSlider
 
-![https://media.giphy.com/media/TGmMhZEFo8xkfb2waU/giphy.gif](https://media.giphy.com/media/TGmMhZEFo8xkfb2waU/giphy.gif)
+![https://media.giphy.com/media/ZxGB34QU9Uq36H514c/giphy.gif](https://media.giphy.com/media/ZxGB34QU9Uq36H514c/giphy.gif)
 
 ---
 
