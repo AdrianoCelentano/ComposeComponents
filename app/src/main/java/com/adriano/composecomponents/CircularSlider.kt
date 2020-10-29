@@ -72,7 +72,7 @@ private fun DrawScope.indicatorCircleRadius(): Float {
 }
 
 private fun DrawScope.outerCircleRadius(): Float {
-    return (horizontalCenter).coerceAtMost(verticalCenter)
+    return size.minDimension / 2
 }
 
 @Preview
