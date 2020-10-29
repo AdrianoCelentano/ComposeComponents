@@ -6,7 +6,7 @@ A collection of Views done with Jetpack Compose
 
 ## SimpleSlider
 
-![https://media.giphy.com/media/SFNUNn3dpxb0nfOBwy/giphy.gif](https://media.giphy.com/media/SFNUNn3dpxb0nfOBwy/giphy.gif)
+![https://media.giphy.com/media/TnGz6XDRXrOG2vuMGx/giphy.gif](https://media.giphy.com/media/TnGz6XDRXrOG2vuMGx/giphy.gif)
 
 ---
 
@@ -30,4 +30,4 @@ A collection of Views done with Jetpack Compose
 
 ## SinusWave
 
-![https://media.giphy.com/media/uhwQ8ZxlFFRDzyhLql/giphy.gif](https://media.giphy.com/media/uhwQ8ZxlFFRDzyhLql/giphy.gif)
+![https://media.giphy.com/media/i6k29qCdRVLyREj4db/giphy.gif](https://media.giphy.com/media/i6k29qCdRVLyREj4db/giphy.gif)
