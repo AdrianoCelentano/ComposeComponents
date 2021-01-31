@@ -7,18 +7,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.preferredSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
+import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.ui.Layout
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.drawscope.translate
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
@@ -52,7 +53,7 @@ private fun ChipLayout(checked: Boolean, slot: @Composable () -> Unit) {
     val textMargin = if (checked) 8.dp else 32.dp
     val textMarginAnimated = animate(textMargin, TweenSpec(delay = 50))
     Layout(
-        children = slot,
+        content = slot,
         measureBlock = { measurables, constraints ->
             val textPlaceable = measurables[1].measure(constraints)
             val width = textPlaceable.width + 40.dp.toIntPx()
@@ -111,10 +112,11 @@ fun ChipContent(isChecked: Boolean, color: Color, text: String) {
         text = text
     )
     Image(
-        asset = Icons.Filled.Close,
+        imageVector = Icons.Filled.Close,
         modifier = Modifier.preferredSize(iconSizeAnimated),
         colorFilter = ColorFilter.tint(Color.White),
-        contentScale = ContentScale.Fit
+        contentScale = ContentScale.Fit,
+        contentDescription = "Close"
     )
 }
 
